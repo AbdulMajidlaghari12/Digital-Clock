@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Utilites Clases */
+
+.grid{
+     display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.Whole-container{
+    width: 100vw;
+    height: 100vh;
+    background:rgba(135, 207, 235, 0.5);
+   
+}
+
+.inner-container{
+    height: 15rem;
+    width: 40vw;
+    background-color:#E49393;
+    border-radius: .3rem;
+}
+
+.time-box{
+    margin: 1rem;
+}
+.time-box input{
+    border: 0;
+    outline: none;
+    padding: .3rem;
+    border-radius: .5rem;
+    background-color: #D8D8D8;
+    color: #245953;
+    text-align: center;
+    width: 15rem;
+    font-size: larger;
+    font-weight: 700; 
+}
